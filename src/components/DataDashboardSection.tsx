@@ -31,18 +31,7 @@ const DataDashboardSection = () => {
           {/* Placeholder for Power BI embed */}
           <div className="aspect-[16/9] bg-card flex flex-col items-center justify-center p-8">
             <div className="text-center">
-              <div className="w-16 h-16 mx-auto mb-6 rounded border border-border flex items-center justify-center">
-                <svg className="w-8 h-8 text-muted-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
-                </svg>
-              </div>
-              <p className="font-typewriter text-muted-foreground text-sm mb-2">
-                ESPACIO RESERVADO PARA POWER BI EMBEDDED
-              </p>
-              <p className="text-muted-foreground/50 text-xs max-w-md mx-auto">
-                Aquí se integrará el reporte interactivo con el mapa de Colombia por departamentos,
-                filtros por año, rango de edad y unidad militar.
-              </p>
+              <iframe title="FalsosPositivos - Sebastian Gomez" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=3e47a8e5-6dfc-4563-b361-f61fa9cf998e&autoAuth=true&ctid=d8bc053e-1b95-4045-9e8c-0b3a5828dc9d" frameborder="0" allowFullScreen="true"></iframe>
             </div>
           </div>
 
