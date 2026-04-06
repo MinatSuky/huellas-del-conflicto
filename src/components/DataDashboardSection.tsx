@@ -29,7 +29,7 @@ const DataDashboardSection = () => {
           className="relative rounded border-2 border-border glow-red-hover transition-shadow duration-500 overflow-hidden"
         >
           {/* Placeholder for Power BI embed */}
-          <div className="aspect-[10/8] bg-card flex flex-col items-center justify-center">
+          <div className="aspect-[5/8] bg-card flex flex-col items-center justify-center">
             <div className="text-center">
               <iframe title="FalsosPositivos - Sebastian Gomez" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=3e47a8e5-6dfc-4563-b361-f61fa9cf998e&autoAuth=true&ctid=d8bc053e-1b95-4045-9e8c-0b3a5828dc9d" frameborder="0" allowFullScreen="true"></iframe>
             </div>
